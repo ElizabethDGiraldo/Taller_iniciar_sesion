@@ -8,7 +8,7 @@ from fastapi.templating import Jinja2Templates
 BASE_DIR = Path(__file__).resolve().parent
 
 
-app = FastAPI(title="ATLAS")
+app = FastAPI(title="Formulario")
 
 
 app.mount("/static", StaticFiles(directory=BASE_DIR / "static"), name="static")

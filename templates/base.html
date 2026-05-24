@@ -3,11 +3,15 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{% block titulo %}Formulario{% endblock %}</title>
   <link rel="stylesheet" href="/static/estilos.css">
-  <title>Formulario</title>
 </head>
 <body>
 <section>
     <h1>✨¡Bienvenido!✨ <br> {{ student.nombre }}</h1>
   </section>
+    {% block contenido %}
+  {% endblock %}
+
+  <footer>by Elizabeth Duarte-2026®</footer>
 </body>
