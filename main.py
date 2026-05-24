@@ -54,10 +54,6 @@ async def login(request: Request, email: str = Form(...), password: str = Form(.
 
 @app.get("/base", response_class=HTMLResponse)
 async def home(request: Request):
-    return templates.TemplateResponse(
-        request,
-        "base.html",
-        {
-            "student": STUDENT_DATABASE,
-        },
-    )
+   
+
+return templates.TemplateResponse(request, "bienvenido.html", {"student": STUDENT_DATABASE})
