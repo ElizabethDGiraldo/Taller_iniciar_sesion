@@ -1,6 +1,6 @@
 body {
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    background-color: #00c3ff;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #007bff;
     color: #333;
     display: flex;
     justify-content: center;
@@ -38,7 +38,7 @@ input {
 
 /* Botón de envío */
 button {
-    background-color: #00c3ff;
+    background-color: linear-gradient(to right, #00bbff, rgb(255, 154, 255));
     color: white;
     border: none;
     padding: 10px;
@@ -48,7 +48,7 @@ button {
 }
 
 button:hover {
-    background-color:  #97e7ff;
+    background-color:  #009dff;
 }
 
 /* Mensajes de error */
